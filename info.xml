@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<extension key="at.greenpeace.droptrigger" type="module">
+  <file>droptrigger</file>
+  <name>Drop Database Triggers</name>
+  <description>Drop unwanted database triggers set by CiviCRM or extensions.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Patrick Figel</author>
+    <email>pfigel@greenpeace.org</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/greenpeace-cee/at.greenpeace.droptrigger</url>
+    <url desc="Documentation">https://github.com/greenpeace-cee/at.greenpeace.droptrigger</url>
+    <url desc="Support">https://github.com/greenpeace-cee/at.greenpeace.droptrigger/issues</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2019-07-12</releaseDate>
+  <version>1.0-alpha.1</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.7</ver>
+    <ver>5.13</ver>
+  </compatibility>
+  <comments></comments>
+  <civix>
+    <namespace>CRM/Droptrigger</namespace>
+  </civix>
+</extension>
