@@ -1,12 +1,11 @@
 <?php
 
 require_once 'droptrigger.civix.php';
-use CRM_Droptrigger_ExtensionUtil as E;
 
 /**
  * Implements hook_civicrm_config().
  *
- * @link https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_config/ 
+ * @link https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_config/
  */
 function droptrigger_civicrm_config(&$config) {
   _droptrigger_civix_civicrm_config($config);
@@ -141,7 +140,7 @@ function droptrigger_civicrm_triggerInfo(&$info, $tableName) {
       'table' => '/^civicrm_activity$/',
       'when' => '/^BEFORE$/',
       'sql' => '/civicrm_case/',
-    ]
+    ],
   ];
   foreach ($info as $id => $triggerInfo) {
     $dropTrigger = FALSE;

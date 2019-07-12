@@ -1,4 +1,4 @@
-# at.greenpeace.droptrigger
+# Drop CiviCRM Database Triggers
 
 This extension allows the removal of database triggers set by CiviCRM,
 using the `hook_civicrm_triggerInfo` hook. 
